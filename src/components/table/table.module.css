@@ -1,0 +1,74 @@
+.table_container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 36px 52px 48px 52px;
+  border-radius: 28px;
+  border: 1px solid white;
+}
+.table_container table {
+  width: 1018px;
+  height: 685px;
+  border-radius: 28px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.table_container table thead tr th {
+  padding-left: 9px;
+  height: 25px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: 0.4px;
+  color: rgba(255, 255, 255, 0.7098039216);
+  text-align: start;
+}
+.table_container table tbody tr td {
+  height: 73px;
+  padding: 10px;
+  text-align: start;
+  vertical-align: middle;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+.table_container table tbody tr td span {
+  font-family: "Manrope";
+  font-weight: 600 !important;
+  font-size: 25px;
+  line-height: 34.15px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  text-align: start;
+}
+.table_container table tbody tr td:first-child {
+  width: 150px;
+}
+.table_container table tbody tr td:first-child div {
+  width: 73px;
+  height: 73px;
+  text-align: center;
+}
+.table_container table tbody tr td:first-child div img {
+  width: 73px;
+  height: 73px;
+  background: transparent;
+}
+.table_container table tbody tr td:nth-child(2) {
+  width: 400px;
+  height: 25px;
+}
+.table_container table tbody tr td:nth-child(2) span {
+  font-weight: bold;
+}
+.table_container table th:nth-child(3), .table_container table td:nth-child(3) {
+  width: 150px;
+}
+.table_container table th:nth-child(4), .table_container table td:nth-child(4) {
+  width: 150px;
+}
+
+/*# sourceMappingURL=table.module.css.map */

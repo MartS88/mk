@@ -1,0 +1,110 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer img {
+  margin-top: auto;
+}
+footer .form_back {
+  display: flex;
+  height: 650px;
+  width: 100%;
+  border-radius: 48px;
+  background: rgba(0, 98, 255, 0.1019607843);
+  margin-bottom: 30px;
+}
+footer .form_back form {
+  padding-top: 29px;
+  padding-left: 55px;
+  background: transparent;
+  width: 646px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+footer .form_back form .title_block {
+  width: 650px;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+footer .form_back form .title_block h2 {
+  width: 100%;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 80.59px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+footer .form_back form .title_block span {
+  width: 206px;
+  height: 87px;
+  border-radius: 18px;
+  padding: 1.44px 6.44px 6.44px 6.44px;
+  background: #D4F954;
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 51.23px;
+  line-height: 69.98px;
+  letter-spacing: 0.26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #081433;
+}
+footer .form_back form .inputs_block {
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+footer .form_back form .inputs_block div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+footer .form_back form .inputs_block div label {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #5E6B74;
+}
+footer .form_back form .inputs_block div input {
+  width: 311px;
+  height: 56px;
+  border-radius: 34px;
+  border: 1px solid #D9DEE2;
+  padding: 16px;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  outline: none;
+}
+footer .form_back form button {
+  width: 311px;
+}
+footer .form_back form p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #5E6B74;
+}
+footer span {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6117647059);
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

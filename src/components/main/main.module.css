@@ -1,0 +1,132 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .index_list_block {
+  width: 100%;
+  padding-top: 50px;
+  margin-bottom: 91px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+}
+main .index_list_block h2 {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 88px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #FFFFFF;
+}
+main .experts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  margin-bottom: 110px;
+}
+main .experts h2 {
+  height: 88px;
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 88px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #FFFFFF;
+}
+main .experts .experts_photos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+}
+main .experts .experts_photos .photo_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+main .experts .experts_photos .photo_block .expert_name {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38.25px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #FFFFFF;
+}
+main .experts .experts_photos .photo_block .about {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6980392157);
+}
+main .questions {
+  margin-bottom: 145px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+main .questions h2 {
+  height: 88px;
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 88px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #FFFFFF;
+}
+main .questions .questions_block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 46px;
+  height: 914px;
+  border: 1px solid white;
+  padding: 50px 58px 50px 58px;
+  border-radius: 28px;
+}
+main .questions .questions_block div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+main .questions .questions_block div:not(:last-child) {
+  border-bottom: 2px solid rgba(238, 238, 238, 0.1215686275);
+  padding-bottom: 40px;
+}
+main .questions .questions_block div h4 {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38.4px;
+  color: #FFFFFF;
+}
+main .questions .questions_block div p {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: rgba(255, 255, 255, 0.6980392157);
+}
+
+/*# sourceMappingURL=main.module.css.map */

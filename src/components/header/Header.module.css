@@ -1,0 +1,228 @@
+.header {
+  margin: 0 auto;
+  padding-top: 36.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header .header_block {
+  height: 592px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 62px;
+  padding-top: 133.2px;
+  margin-bottom: 210px;
+}
+.header .header_block h1 {
+  width: 944px;
+  height: 196px;
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 83px;
+  line-height: 98px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.header .header_block span {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 35.52px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.header .header_block .frame_block {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.header .header_block .frame_block .frame {
+  width: 368px;
+  height: 138px;
+  border-radius: 28px;
+  border: 1px solid #FFFFFF;
+  padding: 19px 23px 19px 23px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.header .header_block .frame_block .frame .img_div {
+  width: 100px;
+  height: 100px;
+  border-radius: 24px;
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .header_block .frame_block .frame .img_div img {
+  width: 70px;
+  height: 70px;
+  background: transparent;
+}
+.header .header_block .frame_block .frame p {
+  width: 186px;
+  height: 75px;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+.header .big_frame_block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.header .big_frame_block .big_frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #D4F953;
+  width: 570px;
+  height: 446px;
+  border-radius: 48px;
+  padding-top: 59px;
+  padding-left: 54px;
+}
+.header .big_frame_block .big_frame .big_frame_span_div {
+  margin-bottom: 90px;
+  width: 462px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+.header .big_frame_block .big_frame .big_frame_span_div .big_frame_span {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 49.18px;
+  letter-spacing: 0.4px;
+  color: #141C3C;
+}
+.header .big_frame_block .big_frame .big_frame_span_div .big_frame_span2 {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49.18px;
+  letter-spacing: 0.4px;
+  color: #141C3C;
+}
+.header .big_frame_block .big_frame img {
+  background: transparent;
+  margin-left: 41px;
+}
+.header .big_frame_block .big_frame2 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 570px;
+  height: 446px;
+  border-radius: 48px;
+  background: #FFFFFF;
+  padding-top: 59px;
+  padding-left: 54px;
+}
+.header .big_frame_block .big_frame2 .big_frame_span_div {
+  margin-bottom: 90px;
+  width: 462px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+.header .big_frame_block .big_frame2 .big_frame_span_div .big_frame_span {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49.18px;
+  letter-spacing: 0.4px;
+  color: #141C3C;
+}
+.header .big_frame_block .big_frame2 img {
+  background: transparent;
+  margin-left: 157px;
+}
+.header .big_frame_block .big_frame3 {
+  osition: relative;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 570px;
+  height: 446px;
+  border-radius: 48px;
+  background: #8600E6;
+  padding-top: 59px;
+  padding-left: 54px;
+}
+.header .big_frame_block .big_frame3 .big_frame_span_div {
+  margin-bottom: 90px;
+  width: 462px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+.header .big_frame_block .big_frame3 .big_frame_span_div .big_frame_span {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49.18px;
+  letter-spacing: 0.4px;
+  color: #141C3C;
+}
+.header .big_frame_block .big_frame3 img {
+  background: transparent;
+  margin-left: 7px;
+  overflow: hidden;
+}
+.header .big_frame_block .big_frame4 {
+  osition: relative;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 570px;
+  height: 446px;
+  border-radius: 48px;
+  background: #0062FF;
+  padding-top: 59px;
+  padding-left: 54px;
+}
+.header .big_frame_block .big_frame4 .big_frame_span_div {
+  margin-bottom: 90px;
+  width: 462px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+.header .big_frame_block .big_frame4 .big_frame_span_div .big_frame_span {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49.18px;
+  letter-spacing: 0.4px;
+  color: #141C3C;
+}
+.header .big_frame_block .big_frame4 img {
+  background: transparent;
+  margin-left: 302px;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=Header.module.css.map */
