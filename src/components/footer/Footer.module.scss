@@ -9,109 +9,165 @@ footer {
 
   .form_back {
     display: flex;
-    height: 650px;
+    height: 656px;
     width: 100%;
     border-radius: 48px;
     background: #0062FF1A;
     margin-bottom: 30px;
 
-  form {
-    padding-top: 29px;
-    padding-left: 55px;
-    background: transparent;
-    width: 646px;
-    height: 360px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-
-
-  .title_block {
-    width: 650px;
-    display: flex;
-    align-items: baseline;
-    gap: 6px;
-
-    h2 {
-      width: 100%;
-      font-family: "Manrope";
-      font-weight: 600;
-      font-size: 55px;
-      line-height: 80.59px;
-      letter-spacing: 0.4px;
-      color:#FFFFFF;
-    }
-
-    span {
-      width: 206px;
-      height: 87px;
-      border-radius: 18px;
-      padding: 1.44px 6.44px 6.44px 6.44px;
-      background: #D4F954;
-      font-family: "Manrope";
-      font-weight: 700;
-      font-size: 51.23px;
-      line-height: 69.98px;
-      letter-spacing: 0.26px;
+    form {
+      padding-top: 29px;
+      padding-left: 55px;
+      background: transparent;
+      width: 646px;
+      height: 360px;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #081433;
-    }
-  }
+      flex-direction: column;
+      gap: 40px;
 
-    .inputs_block {
-      width: 650px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
 
-      div {
+      .title_block {
+        width: 700px;
         display: flex;
-        flex-direction: column;
-        gap: 12px;
+        align-items: baseline;
+        gap: 6px;
 
-        label {
-          font-family: 'Roboto';
-          font-weight: 500;
-          font-size: 16px;
-          line-height: 24px;
-          letter-spacing: 0.5px;
-          color:#5E6B74;
-
+        h2 {
+          width: 660px;
+          font-family: "Manrope";
+          font-weight: 700;
+          font-size: 59px;
+          line-height: 69.98px;
+          letter-spacing: 0.4px;
+          color: #FFFFFF;
         }
 
-        input {
-          width: 311px;
-          height: 56px;
-          border-radius: 34px;
-          border: 1px solid #D9DEE2;
-          padding: 16px;
-          font-family: 'Roboto';
-          font-weight: 500;
-          line-height: 24px;
-          letter-spacing: 0.5px;
-          outline: none;
+        span {
+          transform: translateX(10px);
+          width: 250px;
+          height: 87px;
+          border-radius: 18px;
+          padding: 1.44px 6.44px 6.44px 6.44px;
+          background: #D4F954;
+          font-family: "Manrope";
+          font-weight: 700;
+          font-size: 51.23px;
+          line-height: 69.98px;
+          letter-spacing: 0.26px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #081433;
+        }
+      }
+
+      .inputs_block {
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .name_group, .phone_group {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          gap: 12px;
+
+          input {
+            width: 311px;
+            height: 56px;
+            border-radius: 34px;
+            border: 1px solid #D9DEE2;
+            padding: 16px;
+            font-family: 'Roboto';
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            outline: none;
+            font-size: 16px;
+            transition: all .1s ease;
+
+          }
+
+
+          .firstName_input {
+          }
+
+          .lastName_input {
+          }
+
+          .email_input {
+          }
+
+          .phone_input {
+
+
+          }
+
+
+          .label_group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            label {
+              font-family: 'Roboto';
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: 0.5px;
+              color: #5E6B74;
+              padding-bottom: 16px;
+
+            }
+
+            .error_container {
+              height: 6px;
+
+              .error {
+                padding: 5px;
+                color: red;
+                font-family: 'Roboto';
+                font-size: 0.8rem !important;
+              }
+            }
+          }
 
         }
       }
-    }
 
+      .submit_button {
+        width: 308px;
+        height: 56px;
+        border-radius: 42px;
+        padding: 16px 0px 16px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7.59px;
+        background: #0779F8;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+      }
 
-    button {
-      width: 311px;
-    }
-
-    p {
-      font-family: 'Roboto';
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 20px;
-      letter-spacing: 0.4px;
-      color:#5E6B74
+      p {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+        color: #5E6B74;
+        padding-bottom: 6px;
+      }
     }
   }
-}
+
   span {
 
     font-family: 'Roboto';
@@ -122,4 +178,39 @@ footer {
     text-align: center;
     color: #FFFFFF9C;
   }
+
+
+  .error.visible {
+    transform: scale(100%);
+  }
+
+  .error_input {
+    //border: 1px solid red !important;
+
+  }
+
+  .button_disabled {
+
+    width: 308px;
+    height: 56px;
+    border-radius: 42px;
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.59px;
+    background: #0779F8;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    border: none;
+    cursor: wait !important;
+  }
+
 }
+
+
+

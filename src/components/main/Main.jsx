@@ -14,9 +14,9 @@ const Main = () => {
 
                 <Table/>
 
-                <Button>
+                <button>
                     Invest now
-                </Button>
+                </button>
             </div>
 
             <div className={s.experts}>

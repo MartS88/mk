@@ -23,6 +23,25 @@ main .index_list_block h2 {
   text-align: center;
   color: #FFFFFF;
 }
+main .index_list_block button {
+  width: 200px;
+  height: 70px;
+  border-radius: 42px;
+  padding: 20px 24px 22px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.59px;
+  background: #0779F8;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22.01px;
+  letter-spacing: 0.3px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
 main .experts {
   width: 100%;
   display: flex;

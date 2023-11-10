@@ -8,7 +8,7 @@ footer img {
 }
 footer .form_back {
   display: flex;
-  height: 650px;
+  height: 656px;
   width: 100%;
   border-radius: 48px;
   background: rgba(0, 98, 255, 0.1019607843);
@@ -25,22 +25,23 @@ footer .form_back form {
   gap: 40px;
 }
 footer .form_back form .title_block {
-  width: 650px;
+  width: 700px;
   display: flex;
   align-items: baseline;
   gap: 6px;
 }
 footer .form_back form .title_block h2 {
-  width: 100%;
+  width: 660px;
   font-family: "Manrope";
-  font-weight: 600;
-  font-size: 55px;
-  line-height: 80.59px;
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 69.98px;
   letter-spacing: 0.4px;
   color: #FFFFFF;
 }
 footer .form_back form .title_block span {
-  width: 206px;
+  transform: translateX(10px);
+  width: 250px;
   height: 87px;
   border-radius: 18px;
   padding: 1.44px 6.44px 6.44px 6.44px;
@@ -58,23 +59,16 @@ footer .form_back form .title_block span {
 footer .form_back form .inputs_block {
   width: 650px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 20px;
 }
-footer .form_back form .inputs_block div {
+footer .form_back form .inputs_block .name_group, footer .form_back form .inputs_block .phone_group {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
   gap: 12px;
 }
-footer .form_back form .inputs_block div label {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-  color: #5E6B74;
-}
-footer .form_back form .inputs_block div input {
+footer .form_back form .inputs_block .name_group input, footer .form_back form .inputs_block .phone_group input {
   width: 311px;
   height: 56px;
   border-radius: 34px;
@@ -85,9 +79,50 @@ footer .form_back form .inputs_block div input {
   line-height: 24px;
   letter-spacing: 0.5px;
   outline: none;
+  font-size: 16px;
+  transition: all 0.1s ease;
 }
-footer .form_back form button {
-  width: 311px;
+footer .form_back form .inputs_block .name_group .label_group, footer .form_back form .inputs_block .phone_group .label_group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer .form_back form .inputs_block .name_group .label_group label, footer .form_back form .inputs_block .phone_group .label_group label {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #5E6B74;
+  padding-bottom: 16px;
+}
+footer .form_back form .inputs_block .name_group .label_group .error_container, footer .form_back form .inputs_block .phone_group .label_group .error_container {
+  height: 6px;
+}
+footer .form_back form .inputs_block .name_group .label_group .error_container .error, footer .form_back form .inputs_block .phone_group .label_group .error_container .error {
+  padding: 5px;
+  color: red;
+  font-family: "Roboto";
+  font-size: 0.8rem !important;
+}
+footer .form_back form .submit_button {
+  width: 308px;
+  height: 56px;
+  border-radius: 42px;
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.59px;
+  background: #0779F8;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
 }
 footer .form_back form p {
   font-family: "Roboto";
@@ -96,6 +131,7 @@ footer .form_back form p {
   line-height: 20px;
   letter-spacing: 0.4px;
   color: #5E6B74;
+  padding-bottom: 6px;
 }
 footer span {
   font-family: "Roboto";
@@ -105,6 +141,28 @@ footer span {
   letter-spacing: 0.4px;
   text-align: center;
   color: rgba(255, 255, 255, 0.6117647059);
+}
+footer .error.visible {
+  transform: scale(100%);
+}
+footer .button_disabled {
+  width: 308px;
+  height: 56px;
+  border-radius: 42px;
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.59px;
+  background: #0779F8;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  border: none;
+  cursor: wait !important;
 }
 
 /*# sourceMappingURL=Footer.module.css.map */

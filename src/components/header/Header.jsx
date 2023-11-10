@@ -52,9 +52,9 @@ const Header = () => {
 
                 </div>
 
-                <Button onClick={() => console.log('click')}>
+                <button onClick={() => console.log('click')}>
                     Try it now
-                </Button>
+                </button>
 
             </div>
 
@@ -96,7 +96,7 @@ const Header = () => {
                         Automated trade
                                 </span>
                         <span className={s.big_frame_span}>
-                            expected replication
+                            replication
                         </span>
                     </div>
 

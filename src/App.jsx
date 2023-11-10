@@ -7,10 +7,8 @@ const App = () => {
     return (
         <div className='wrapper'>
 
-          <Header/>
-
+            <Header/>
             <Main/>
-
             <Footer/>
         </div>
     );
