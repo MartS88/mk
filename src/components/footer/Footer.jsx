@@ -24,7 +24,7 @@ const Footer = () => {
 
 
     const [phoneNumber, setPhoneNumber] = useState('')
-    const [phoneNumberError, setPhoneNumberError] = useState('The Phone Number is required')
+    const [phoneNumberError, setPhoneNumberError] = useState('The Phone number is required')
     const [phoneNumberDirty, setPhoneNumberDirty] = useState(false)
 
 
@@ -145,7 +145,7 @@ const Footer = () => {
 
                         <div className={s.name_group}>
                             <div className={s.label_group}>
-                                <label htmlFor="firstName">First Name:</label>
+                                <label htmlFor="firstName">First name:</label>
                                 <input
                                     className={inputFirstNameCase}
                                     type="text"
@@ -168,7 +168,7 @@ const Footer = () => {
 
 
                             <div className={s.label_group}>
-                                <label htmlFor="lastName">Last Name:</label>
+                                <label htmlFor="lastName">Last name:</label>
                                 <input
                                     className={inputLastNameCase}
                                     type="text"
@@ -217,7 +217,7 @@ const Footer = () => {
 
                             <div className={s.label_group}>
 
-                                <label htmlFor="phoneNumber">Phone Number:</label>
+                                <label htmlFor="phoneNumber">Phone number:</label>
 
                                 <PhoneInput
                                     onBlur={() => blurHandler({ target: { name: 'phone' } })}
