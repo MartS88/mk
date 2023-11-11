@@ -89,7 +89,7 @@ const Footer = () => {
     };
 
 
-    const handlePhoneChange = (value, country, e, formattedValue) => {
+    const handlePhoneChange = (value, country) => {
         setPhoneNumber(value);
 
         if (value.length > 1) {
@@ -108,7 +108,6 @@ const Footer = () => {
     };
 
 
-
     useEffect(() => {
         if (firstNameError || lastNameError || emailError || phoneNumberError) {
             setActiveForm(false)
@@ -116,12 +115,11 @@ const Footer = () => {
             setActiveForm(true)
         }
 
-    }, [firstNameError , lastNameError, emailError, phoneNumberError,   ]);
-
+    }, [firstNameError, lastNameError, emailError, phoneNumberError,]);
 
 
     return (
-        <footer>
+        <footer >
 
 
             <div className={s.form_back}>
@@ -220,18 +218,18 @@ const Footer = () => {
                                 <label htmlFor="phoneNumber">Phone number:</label>
 
                                 <PhoneInput
-                                    onBlur={() => blurHandler({ target: { name: 'phone' } })}
+                                    onBlur={() => blurHandler({target: {name: 'phone'}})}
                                     type="phone"
                                     id="phone"
                                     name="phone"
                                     className={inputPhoneCase}
                                     country={'in'}
                                     value={phoneNumber}
-                                    onChange={(value, country, e, formattedValue) => handlePhoneChange(value, country, e, formattedValue)}
+                                    onChange={(value, country, ) => handlePhoneChange(value, country, )}
                                     inputProps={{
-                                        required: true,}}
+                                        required: true,
+                                    }}
                                 />
-
 
 
                                 <div className={s.error_container}>
@@ -249,8 +247,9 @@ const Footer = () => {
 
 
                     <button
-                        className={!activeForm ? s.button_disabled : s.submit_button}
-                        onClick={() => console.log('activeForm',activeForm)}
+                        disabled={!activeForm}
+                        className={activeForm ? s.submit_button : s.button_disabled}
+                        type='submit'
                     >
                         Get Bonus
                     </button>
@@ -266,7 +265,7 @@ const Footer = () => {
             </div>
 
 
-            <span>
+            <span className={s.copyright}>
                     © copyright 2023
                 </span>
         </footer>
@@ -274,7 +273,6 @@ const Footer = () => {
 };
 
 export default Footer;
-
 
 
 //
@@ -286,7 +284,6 @@ export default Footer;
 //     }
 //
 // }, [emailError, passwordError]);
-
 
 
 // const handlePhoneChange = (value, country, e, formattedValue) => {

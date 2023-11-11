@@ -62,16 +62,15 @@ body {
 .react-tel-input {
   .country-list {
 
-    top: 100%;
-    left: 0;
-    font-size: 0.9rem;
+    transform: translate(-4%,5%);
+    font-size: 1rem;
     text-align: left;
-    max-height: 200px;
+    max-height: 100px;
     overflow-y: auto;
     transition: all .1s ease;
 
     &:hover {
-      background: transparent;
+
 
     }
   }
@@ -80,6 +79,7 @@ body {
     display: block;
   }
 }
+
 
 //
 //.flag-dropdown {
