@@ -71,4 +71,60 @@
   width: 150px;
 }
 
+@media screen and (max-width: 375px) {
+  .table_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    border: none;
+    gap: 18px;
+  }
+  .table_container .mobile_table_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 300px;
+    height: 131px;
+    border-radius: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.2196078431);
+    padding: 18px 23px 28px 23px;
+  }
+  .table_container .mobile_table_row .mobile_table_row_title {
+    margin-right: 60px;
+    width: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .table_container .mobile_table_row .mobile_table_row_title .currency {
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+  }
+  .table_container .mobile_table_row .mobile_table_row_title .profit {
+    font-family: "Manrope";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.86px;
+    letter-spacing: 0.4px;
+    color: #D4F954;
+  }
+  .table_container .mobile_table_row .mobile_table_row_title .period {
+    font-family: "Manrope";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.86px;
+    letter-spacing: 0.4px;
+    color: rgba(255, 255, 255, 0.7803921569);
+  }
+}
+
 /*# sourceMappingURL=table.module.css.map */

@@ -174,4 +174,156 @@ footer .button_disabled {
   cursor: wait !important;
 }
 
+@media screen and (max-width: 375px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  footer .form_back {
+    width: 360px;
+    height: 1000px;
+    padding: 0;
+  }
+  footer .form_back form {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    gap: 0px;
+    padding: 0;
+  }
+  footer .form_back form .title_block {
+    padding-top: 27.47px;
+    width: 282.01px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  footer .form_back form .title_block h2 {
+    font-weight: 600;
+    font-size: 39.24px;
+    line-height: 53.61px;
+    letter-spacing: 0.27px;
+  }
+  footer .form_back form .title_block span {
+    position: absolute;
+    transform: translate(120%, 100%);
+    width: 137.02px;
+    height: 57.87px;
+    border-radius: 12px;
+    padding: 0.96px 4.28px 4.28px 4.28px;
+    font-weight: 700;
+    font-size: 34.07px;
+    line-height: 46.55px;
+    letter-spacing: 0.17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.28px;
+    color: #171E27;
+  }
+  footer .form_back form .inputs_block {
+    width: 311px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 40px;
+  }
+  footer .form_back form .inputs_block .name_group, footer .form_back form .inputs_block .phone_group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  footer .form_back form .inputs_block .name_group input, footer .form_back form .inputs_block .phone_group input {
+    width: 311px;
+    height: 56px;
+    border-radius: 12px;
+    border: 1px solid #D9DEE2;
+    padding: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.1s ease;
+  }
+  footer .form_back form .inputs_block .name_group .label_group, footer .form_back form .inputs_block .phone_group .label_group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer .form_back form .inputs_block .name_group .label_group label, footer .form_back form .inputs_block .phone_group .label_group label {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #5E6B74;
+    padding-bottom: 16px;
+  }
+  footer .form_back form .inputs_block .name_group .label_group .error_container, footer .form_back form .inputs_block .phone_group .label_group .error_container {
+    height: 6px;
+  }
+  footer .form_back form .inputs_block .name_group .label_group .error_container .error, footer .form_back form .inputs_block .phone_group .label_group .error_container .error {
+    padding: 5px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 0.8rem !important;
+  }
+  footer .form_back form .submit_button {
+    width: 308px;
+    height: 56px;
+    border-radius: 12px;
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background: #0779F8;
+    margin-bottom: 12px;
+  }
+  footer .form_back form p {
+    transform: translateY(-210%);
+    width: 311px;
+    height: 120px;
+    font-weight: 400;
+  }
+  footer .form_back form img {
+    width: 362.37px;
+    height: 280px;
+  }
+  footer span {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: black;
+  }
+  footer .button_disabled {
+    width: 308px;
+    height: 56px;
+    border-radius: 12px;
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background: #0779F8;
+    border: none;
+    cursor: wait !important;
+    margin-bottom: 12px;
+  }
+}
+
 /*# sourceMappingURL=Footer.module.css.map */

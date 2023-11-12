@@ -1,9 +1,9 @@
 main {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 58px;
 
   .index_list_block {
     width: 100%;
@@ -27,25 +27,25 @@ main {
     }
 
 
-      button {
-        width: 200px;
-        height: 70px;
-        border-radius: 42px;
-        padding: 20px 24px 22px 24px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 7.59px;
-        background: #0779F8;
-        font-family: 'Manrope';
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 22.01px;
-        letter-spacing: 0.3px;
-        color: #FFFFFF;
-        border: none;
-        cursor: pointer;
-      }
+    button {
+      width: 200px;
+      height: 70px;
+      border-radius: 42px;
+      padding: 20px 24px 22px 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 7.59px;
+      background: #0779F8;
+      font-family: 'Manrope';
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 22.01px;
+      letter-spacing: 0.3px;
+      color: #FFFFFF;
+      border: none;
+      cursor: pointer;
+    }
 
   }
 
@@ -139,7 +139,7 @@ main {
       gap: 46px;
       height: 914px;
       border: 1px solid white;
-      padding:   50px 58px 50px 58px;
+      padding: 50px 58px 50px 58px;
       border-radius: 28px;
 
 
@@ -179,5 +179,146 @@ main {
 }
 
 
+@media screen and (max-width: 375px) {
 
-//border-bottom: 2px solid #EEEEEE1F;
+  main {
+
+
+    .index_list_block {
+      padding: 0;
+      gap: 0;
+      height: auto;
+      margin-bottom: 58px;
+
+      h2 {
+        width: 300px;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 44px;
+        letter-spacing: 0.4px;
+        text-align: center;
+        color: white;
+      }
+
+
+      button {
+        width: 200px;
+        height: 70px;
+        border-radius: 53px;
+        padding: 20px 24px 22px 24px;
+        font-size: 20px;
+
+      }
+
+    }
+
+    .experts {
+      width: 328px;
+      gap: 32px;
+      margin-bottom: 58px;
+
+      h2 {
+
+        height: 88px;
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 88px;
+        letter-spacing: 0.4px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      .experts_photos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+        .photo_block {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 25px;
+
+          .expert_name {
+            font-size: 20px;
+            line-height: 27.32px;
+          }
+
+          .about {
+            width: 317px;
+            font-size: 15.8px;
+            line-height: 21.86px;
+          }
+        }
+      }
+    }
+
+    .questions {
+      margin: 0;
+      padding: 0;
+      gap: 27px;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+
+        width: 187px;
+        height: 44px;
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 44px;
+        letter-spacing: 0.4px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+      }
+
+      .questions_block {
+        margin-top: 27px;
+        width: 360px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid #FFFFFFB2;
+        padding: 16px 27px 16px 27px;
+        border-radius: 28px;
+
+        div {
+          width: 306px;
+          height: auto;
+
+
+          &:not(:last-child) {
+            border-bottom: 2px solid #EEEEEE1F;
+          }
+
+          h4 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28.8px;
+
+          }
+
+          p {
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27.2px;
+          }
+        }
+
+      }
+    }
+  }
+
+
+}
