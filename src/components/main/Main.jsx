@@ -132,7 +132,7 @@ const Main = () => {
 
                             <div className={s.photo_block}>
 
-                                <img src={require('../../assets/person.png')} width={180} height={180} draggable={false}/>
+                                <img src={require('../../assets/person3.png')} width={180} height={180} draggable={false}/>
 
                                 <span className={s.expert_name}>
                             Priya Sharma
@@ -145,7 +145,7 @@ const Main = () => {
 
                             <div className={s.photo_block}>
 
-                                <img src={require('../../assets/person2.png')} width={180} height={180} draggable={false}/>
+                                <img src={require('../../assets/person.png')} width={180} height={180} draggable={false}/>
 
                                 <span className={s.expert_name}>
                           Deepak Gupta
@@ -159,7 +159,7 @@ const Main = () => {
 
                             <div className={s.photo_block}>
 
-                                <img src={require('../../assets/person3.png')} width={180} height={180} draggable={false}/>
+                                <img src={require('../../assets/person2.png')} width={180} height={180} draggable={false}/>
 
                                 <span className={s.expert_name}>
                           Rohan Patel
