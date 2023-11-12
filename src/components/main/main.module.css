@@ -181,11 +181,8 @@ main .questions .questions_block div p {
     height: 88px;
     font-family: "Manrope";
     font-weight: 700;
-    font-size: 44px;
-    line-height: 88px;
-    letter-spacing: 0.4px;
-    text-align: center;
-    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 44px;
   }
   main .experts .experts_photos {
     width: 100%;
@@ -214,7 +211,7 @@ main .questions .questions_block div p {
   main .questions {
     margin: 0;
     padding: 0;
-    gap: 27px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
   }
@@ -249,6 +246,7 @@ main .questions .questions_block div p {
   }
   main .questions .questions_block div:not(:last-child) {
     border-bottom: 2px solid rgba(238, 238, 238, 0.1215686275);
+    padding-bottom: 20px;
   }
   main .questions .questions_block div h4 {
     font-weight: 500;
