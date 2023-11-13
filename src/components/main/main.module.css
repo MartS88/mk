@@ -149,7 +149,7 @@ main .questions .questions_block div p {
   color: rgba(255, 255, 255, 0.6980392157);
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 767px) {
   main .index_list_block {
     padding: 0;
     gap: 0;

@@ -174,7 +174,7 @@ footer .button_disabled {
   cursor: wait !important;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 767px) {
   footer {
     display: flex;
     flex-direction: column;

@@ -39,7 +39,7 @@ const MobileTableRow = ({icon, currency, period, profit}) => {
 
 const Table = () => {
 
-    const isMobile = useMediaQuery({maxWidth: 375});
+    const isMobile = useMediaQuery({maxWidth: 767});
 
     return (
         <div className={s.table_container}>

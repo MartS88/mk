@@ -4,7 +4,7 @@ import Logo from "../logo/Logo";
 import { useMediaQuery } from "react-responsive";
 
 const Header = () => {
-    const isMobile = useMediaQuery({ maxWidth: 360 });
+    const isMobile = useMediaQuery({ maxWidth: 767 });
 
     return (
         <header className={s.header}>
@@ -54,7 +54,7 @@ const Header = () => {
 
                         </div>
 
-                        <button onClick={() => console.log('click')}>
+                        <button>
                             Try it now
                         </button>
 
