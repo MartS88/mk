@@ -9,7 +9,7 @@ import {useMediaQuery} from "react-responsive";
 
 const Footer = () => {
 
-    const isMobile = useMediaQuery({maxWidth: 375});
+    const isMobile = useMediaQuery({maxWidth: 360});
 
     const [firstName, setFirstName] = useState('')
     const [firstNameError, setFirstNameError] = useState('The First name is required')

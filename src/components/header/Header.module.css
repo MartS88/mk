@@ -243,7 +243,7 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 360px) {
   .header {
     margin-bottom: 0;
   }

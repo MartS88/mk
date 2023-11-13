@@ -6,7 +6,7 @@ import {useMediaQuery} from "react-responsive";
 
 const Main = () => {
 
-    const isMobile = useMediaQuery({ maxWidth: 375 });
+    const isMobile = useMediaQuery({ maxWidth: 360 });
 
     return (
         <main>

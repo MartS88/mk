@@ -4,7 +4,7 @@ import Logo from "../logo/Logo";
 import { useMediaQuery } from "react-responsive";
 
 const Header = () => {
-    const isMobile = useMediaQuery({ maxWidth: 375 });
+    const isMobile = useMediaQuery({ maxWidth: 360 });
 
     return (
         <header className={s.header}>

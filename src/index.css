@@ -56,4 +56,15 @@ body {
   display: block;
 }
 
+@media screen and (max-width: 360px) {
+  body {
+    overflow-x: hidden;
+  }
+  .wrapper {
+    overflow-x: hidden;
+    margin: 0 auto;
+    width: 360px;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
