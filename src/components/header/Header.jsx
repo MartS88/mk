@@ -170,7 +170,7 @@ const Header = () => {
 
                         </div>
 
-                        <button onClick={() => console.log('click')}>
+                        <button>
                             Try it now
                         </button>
 

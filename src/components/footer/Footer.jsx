@@ -433,39 +433,3 @@ const Footer = () => {
 export default Footer;
 
 
-//
-// useEffect(() => {
-//     if (emailError || passwordError) {
-//         setActiveForm(false)
-//     } else {
-//         setActiveForm(true)
-//     }
-//
-// }, [emailError, passwordError]);
-
-
-// const handlePhoneChange = (value, country, e, formattedValue) => {
-//
-//     if (phoneNumber === '') {
-//         setPhoneNumber(country);
-//     }
-//         setPhoneNumber(value);
-//         const phoneNumberObj = parsePhoneNumber(value, country.countryCode.toUpperCase());
-//         const formattedPhoneNumber = phoneNumberObj ? phoneNumberObj.formatInternational() : '';
-//         const isValid = isValidNumber(formattedPhoneNumber,country)
-//
-//     if (!isValid) {
-//         setPhoneNumberError('Type a correct phone number')
-//         setPhoneNumberDirty(true)
-//     }
-//     else {
-//         setPhoneNumberError('')
-//         setPhoneNumberDirty(false)
-//     }
-//
-//
-//     console.log('phone', phoneNumberObj)
-//     console.log('form', formattedPhoneNumber)
-//     console.log('isValid', isValid)
-//
-// }
