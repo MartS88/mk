@@ -6,6 +6,7 @@ import {
     isValidNumber, parsePhoneNumber,
 } from 'libphonenumber-js'
 import {useMediaQuery} from "react-responsive";
+import Popup from "../popup/Popup";
 
 const Footer = () => {
 
@@ -118,15 +119,37 @@ const Footer = () => {
 
     }, [firstNameError, lastNameError, emailError, phoneNumberError,]);
 
+    const [popUpIsActive, setPopUpIsActive] = useState(false)
+    const submitHandler = (e) => {
+        e.preventDefault()
+        setPopUpIsActive(!popUpIsActive)
+    }
+
+    useEffect(() => {
+        if (popUpIsActive) {
+            if (isMobile) {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                window.scrollTo({ top: 160, behavior: 'smooth' });
+            }
+
+        }
+    }, [popUpIsActive,isMobile]);
 
     return (
         <footer>
             {!isMobile ? (
                 <>
+                    {popUpIsActive ? (
+                        <div className={s.popup_container}>
+                            <Popup submitHandler={submitHandler} email={email} />
+                        </div>
+                    ) : null}
+
                     <div className={s.form_back}>
 
 
-                        <form>
+                        <form onSubmit={submitHandler}>
 
                             <div className={s.title_block}>
                                 <h2>
@@ -275,11 +298,16 @@ const Footer = () => {
                 </>
             ) : (
                 <>
+                    {popUpIsActive ? (
+                        <div className={s.popup_container}>
+                            <Popup submitHandler={submitHandler} email={email} />
+                        </div>
+                    ) : null}
 
                     <div className={s.form_back}>
 
 
-                        <form>
+                        <form onSubmit={submitHandler}>
 
                             <div className={s.title_block}>
                                 <h2>

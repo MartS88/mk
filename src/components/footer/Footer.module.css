@@ -3,6 +3,18 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
+footer .popup_container {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6980392157);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
 footer img {
   margin-top: auto;
 }
